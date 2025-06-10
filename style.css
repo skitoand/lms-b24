@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+#app {
+    display: flex;
+    width: 100%;
+}
+.sidebar {
+    width: 250px;
+    background: #f0f2f5;
+    padding: 10px;
+    overflow-y: auto;
+}
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+.lesson-link {
+    cursor: pointer;
+    padding: 6px;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+.lesson-link.completed {
+    color: green;
+    font-weight: bold;
+}
